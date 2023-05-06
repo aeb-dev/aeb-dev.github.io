@@ -59,8 +59,8 @@ customRemoteJS = []
   loading = "lazy"
 
 # If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
-# [params.googleTagManager]
-# id = "gid"
+[params.googleTagManager]
+id = "G-S31PTF2YVV"
 
 # If you want to implement a Content-Security-Policy, add this section
 # [params.csp]
