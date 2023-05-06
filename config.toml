@@ -46,6 +46,18 @@ customJS = []
 # Custom remote JS files
 customRemoteJS = []
 
+[params.giscus] # https://giscus.app
+  repo = "aeb-dev/aeb-dev.github.io"
+  repoID = "R_kgDOJaYAWA"
+  category = "Q&A"
+  categoryID = "DIC_kwDOJaYAWM4CWTsi"
+  mapping = "pathname"
+  reactionsEnabled = "1"
+  inputPosition = "bottom"
+  theme = "preferred_color_scheme"
+  lang = "en"
+  loading = "lazy"
+
 # If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
 # [params.googleTagManager]
 # id = "gid"
