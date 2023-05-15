@@ -59,8 +59,8 @@ customRemoteJS = []
   loading = "lazy"
 
 # If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
-[params.googleTagManager]
-id = "G-S31PTF2YVV"
+ [params.googleTagManager]
+ id = "G-S31PTF2YVV"
 
 # If you want to implement a Content-Security-Policy, add this section
 # [params.csp]
@@ -111,10 +111,18 @@ weight = 3
 url = "https://www.linkedin.com/in/ahmet-enes-bayraktar/"
 
 [[params.social]]
-name = "RSS"
+name = "Twitter"
 icon = "fa fa-2x fa-twitter"
 weight = 4
 url = "https://twitter.com/aeb_dev"
+
+[[params.social]]
+name = "RSS"
+icon = "fa fa-2x fa-rss"
+weight = 5
+url = "https://aeb-dev.me/index.xml"
+rel = "alternate"
+type = "application/rss+xml"
 
 [languages.en]
 languageName = ":us:"
