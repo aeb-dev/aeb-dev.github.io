@@ -3165,14 +3165,18 @@ pre {
   padding: 1rem;
   border-radius: 1rem; }
   pre code {
-    display: inline-block; }
+    display: inline-block;
+    background-color: inherit;
+    color: inherit; }
 
 code {
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
   font-size: 1.6rem;
   font-weight: 400;
   border-radius: 0.6rem;
-  padding: 0.3rem 0.6rem; }
+  padding: 0.3rem 0.6rem;
+  background-color: #ccc;
+  color: #212121; }
 
 blockquote {
   border-left: 2px solid #e0e0e0;
